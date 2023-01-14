@@ -8,6 +8,14 @@
     --font-dis:#3A3A3A;
     --font-title:#3A3A3A;
 }
+main{
+    max-width:1200px ;
+    width: 100%;
+    margin: 0 auto; 
+    margin-top: 94px;
+    /* background-color:blue; */
+    /* height: 500px; */
+}
 
 *{
     margin: 0;
@@ -95,6 +103,23 @@ nav ul a{
 
 
 
+/* ****************************************************** company section style  */
+.company{
+    border-top: 2px solid var(--background) ;
+    border-bottom: 2px solid red;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.company > img{
+    /* display: inline-block; */
+    margin: 10px 0;
+}
+
+
+/* ***************************************************************popular collaction style */
 
 
 
@@ -135,6 +160,7 @@ nav ul a{
         position: relative;
     }
     .header-title{
+        width: 100%;
         font-size: 30px;
     }
    
