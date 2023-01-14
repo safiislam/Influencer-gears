@@ -117,12 +117,13 @@ nav ul a{
 
 
 
-@media only screen and (max-width:566px) {
+@media only screen and (max-width:686px) {
     nav , nav >ul {
         flex-direction: column;
     }
     .header-container{
         flex-direction: column-reverse;
+        overflow-x: hidden;
     }
     .header-container-text{
         display: flex;
@@ -136,8 +137,6 @@ nav ul a{
     .header-title{
         font-size: 30px;
     }
-    .header-discriptin{
-        font-size: 10px;
-    }
+   
    
 }
