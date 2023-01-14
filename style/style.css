@@ -133,5 +133,11 @@ nav ul a{
     .btn-primary{
         position: relative;
     }
+    .header-title{
+        font-size: 30px;
+    }
+    .header-discriptin{
+        font-size: 10px;
+    }
    
 }
